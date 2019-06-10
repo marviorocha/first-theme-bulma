@@ -1,0 +1,40 @@
+@charset "utf-8";
+@import 'color';
+@import '../../node_modules/bulma/bulma.sass';
+ 
+
+section.my_top {
+  background:black url('../images/intro-bg.jpg') center / cover;
+ 
+}
+
+section.my_button {
+    background: black url('../images/banner-bg.jpg') top / cover;
+}
+
+@media (max-width: 1024px) {
+
+    section.my_top {
+        background: black url('../images/intro-bg-2.jpg') center / cover;
+    }
+}
+
+@media (max-width: 768px) {
+
+    section.my_top {
+        background: black url('../images/intro-bg-3.jpg') center / cover;
+
+    }
+}
+
+.navbar {
+    transform: translateY(0);
+    transition: transform 0.2s ease-in-out;
+}
+
+.navbar.is-hidden-scroll {
+    transform: translateY(-100%);
+}
+/* // End Home Page */
+
+ 

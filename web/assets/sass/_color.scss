@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+$green:#30a300;
+$red: #C6104E;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+
+// Update Bulma's global variables
+$family-sans-serif: "Roboto", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $green;
+$danger: $red;
+ 

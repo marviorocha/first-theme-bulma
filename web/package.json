@@ -1,0 +1,19 @@
+{
+  "name": "theme-by-marviorocha",
+  "version": "1.0.0",
+  "description": "Marvio Rocha is building bulma",
+  "main": "index.js",
+  "author": "Marvio Rocha",
+  "license": "MIT",
+  "scripts": {
+    "css-build": "yarn run node-sass --omit-source-map-url assets/sass/main.scss assets/css/style.css",
+    "css-watch": "yarn run css-build -- --watch",
+    "start": "yarn run css-watch"
+  },
+  "dependencies": {
+    "@vizuaalog/bulmajs": "^0.10.0",
+    "bulma": "^0.7.5",
+    "node-sass": "^4.12.0"
+  },
+  "devDependencies": {}
+}
